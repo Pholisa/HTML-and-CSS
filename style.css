@@ -1,0 +1,516 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ede3c2;
+    margin: 0%;
+}
+
+
+/*------------------------------------------------------------------------------NAVIGATION BAR----------------------------------------------------------------------------------*/
+.navigationbar {
+    /* Removing the bullets */
+    list-style-type: none;
+    /* Removing the browser default settings */
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    /*Sticky Navigation Bar*/
+    position: -webkit-sticky;
+    position: sticky;
+    /*Ensures that the navigation bar does not move when scrolling*/
+    top: 0;
+}
+.navigationbar {
+  background-color: #333;
+}
+
+.navigationbar li {
+    float: left;
+}
+
+.navigationbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigationbar li a:hover:not(.active) {
+    background-color: #C6A641;
+}
+
+.active {
+    background-color: #C6A641 ;
+}
+
+
+.welcomehome, .topsub {
+    text-align: center;
+    font-size: 20px;
+}
+
+.h3 {
+    font-weight: bold;
+}
+
+/*------------------------------------------------------------------------------REGISTER AND LOGIN---------------------------------------------------------------------------------*/
+
+#getlogin h2 {
+  text-align: center;
+  font-size: 50px;
+  }
+  
+  #getregister h2 {
+    text-align: center;
+    font-size: 50px;
+    }
+
+
+  .connect-input {
+      text-align: center;
+      border-radius: 5px;
+  }
+  input[type=text] {
+      width: 60%;
+      padding: 10px 18px;
+      margin: 6px 0;
+      box-sizing: border-box;
+      border: 2px solid #C6A641 ;
+      border-radius: 4px;
+      background-color: #FDF4E3;
+    }
+  
+    input[type=password] {
+      width: 60%;
+      padding: 10px 18px;
+      margin: 6px 0;
+      box-sizing: border-box;
+      border: 2px solid #C6A641 ;
+      border-radius: 4px;
+      background-color: #FDF4E3;
+    }
+  
+    .send-button button {
+        background-color: #C6A641;
+        color: #FDF4E3;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        width: 20%;
+  
+    }
+  
+    .send-button button:hover {
+      background-color: #ddd6d8b6;
+    }
+    
+  
+/*------------------------------------------------------------------------------WELCOME PAGE----------------------------------------------------------------------------------------*/
+
+
+.welcomehome h2{
+   text-align: center;
+  font-size: 2.3em;
+  /* Additional space from the top */
+  padding-top: 20px;
+
+}
+
+.welcomehome p{
+  padding-top: 20px; 
+
+}
+
+.welcomehome i{
+  text-align: center;
+}
+
+.home-container {
+  padding: 10px 0;
+  /* Centering the container itself */
+  display: flex;
+  justify-content: center;
+}
+
+.home-service {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  max-width: 1200px; 
+  width: 100%; 
+  /* Centers the container horizontally and adds space at the top */
+  margin: 20px auto 0 auto; 
+  /* Additional space from the top */
+  padding-top: 60px; 
+}
+
+.our-services {
+  width: 24%; 
+  box-sizing: border-box;
+  margin: 0.5%; 
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.637);
+}
+
+.our-services img {
+  width: 100%;
+  height: 150px; 
+  object-fit: cover; 
+}
+
+
+
+/*------------------------------------------------------------------------------SERVICES-----------------------------------------------------------------------------------------------*/
+
+
+ h1{
+  text-align: center;
+ font-size: 2.3em;
+
+}
+.first-services, .second-services {
+  /* Additional space from the top */
+  padding-top: 120px; 
+
+    display: flex;
+    justify-content: center;
+    margin-right: 15%;
+}
+
+.gallery {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+  
+.services  {
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.637);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: 5%;
+    
+}
+
+.container {
+    text-align: center;
+    padding: 10px 20px;   
+}
+
+.gallery:hover {
+    opacity: 0.7;
+}
+/*------------------------------------------------------------------------------LOGOUT-------------------------------------------------------------------------------------------------*/
+
+.button:hover {
+  background-color: #ede3c2;
+}
+
+.button {
+    background-color: #C6A641;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 5px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.logout {
+    background-color: #C6A641;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 5px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    /* Position the button absolutely */
+    position: absolute;  
+    /* Align with the top of the container */
+    top: 0;  
+    /* Align to the right corner */
+    right: 0;  
+}
+
+.logout:hover {
+  background-color: #ede3c2;
+}
+ 
+/*Subscription Section*/
+/*------------------------------------------------------------------------------SUBSCRIPTION------------------------------------------------------------------------------------*/
+
+  .subscription-content-one {
+    display: flex;
+    justify-content: center;
+  }
+   
+  .subscription-box-one {
+    background-color: rgba(255, 255, 255, 0.637);
+    /* Increased padding to make the box bigger */
+    padding: 70px;
+    /* Rounded corners */ 
+    border-radius: 20px;
+     /* Increased width to make the box bigger */
+    max-width: 700px;
+    width: 200%;
+    border: 2px solid #C6A641 ;
+
+  }
+
+  .subscription-content-two {
+    display: flex;
+    justify-content: center;
+  }
+   
+  .subscription-box-two {
+    background-color: rgba(255, 255, 255, 0.637);
+    /* Increased padding to make the box bigger */
+    padding: 70px; 
+    /* Rounded corners */
+    border-radius: 20px;
+    /* Increased width to make the box bigger */
+    max-width: 700px; 
+    width: 200%;
+    border: 2px solid #C6A641 ;
+
+  }
+  
+  .subscription-container {
+     /* This sets the children to align in a row */
+    display: flex;
+    /*Adds space between the two divs */
+    justify-content: space-between; 
+    /*Space between the divs */
+    gap: 20px; 
+
+}
+
+.subscription-content-one,
+.subscription-content-two {
+    flex: 1; 
+    
+}
+  .subscription-button {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .subscription-button {
+    background-color: #C6A641;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+  }
+  
+  .subscription-button:hover {
+    background-color: #ede3c2;
+  }
+  
+
+.savebtn button {
+  background-color: #C6A641;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.carwash-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #333;
+}
+
+.housekeeping-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #333;
+}
+
+.basic-plan {
+height: 185px;
+background-color: #ede3c2;
+border: 2px solid #C6A641 ;
+border-radius: 8px;
+margin: 2%;
+}
+
+.carwash-container ul {
+  /* Removing the bullets */
+  list-style-type: none;
+  /* Removing the browser default settings */
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  font-size: small;
+
+}
+
+.carwash-container p{
+  font-size: 20px;
+  margin-left: 10px;
+
+}
+
+.standard-plan {
+  height: 190px;
+  background-color: #ede3c2;
+  border: 2px solid #C6A641;
+  margin: 2%;
+  border-radius: 8px;
+
+}
+
+.advanced-plan {
+  height: 190px;
+  background-color: #ede3c2;
+  border: 2px solid #C6A641;
+  margin: 2%;
+
+}
+
+.premium-plan {
+  height: 190px;
+  background-color: #ede3c2;
+  border: 2px solid #C6A641;
+  margin: 2%;
+
+}
+
+/*------------------------------------------------------------------------------ABOUT US-------------------------------------------------------------------------------------------*/
+
+.aboutus p{
+  text-align: center;
+}
+
+.aboutus-content {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutus-column {
+  /* Makes each column take up equal width */
+  flex: 1; 
+  /* Adds some padding inside each column */
+  padding: 10px; 
+}
+
+
+.aboutus-box {
+  background-color: rgba(255, 255, 255, 0.637);
+   /* Increased padding to make the box bigger */
+  padding: 70px;
+  /* Rounded corners */
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   /* Increased width to make the box bigger */
+  max-width: 700px;
+  width: 200%;
+  border: 2px solid #C6A641 ;
+  }
+  
+/*------------------------------------------------------------------------------CONTACT US--------------------------------------------------------------------------------------*/
+
+
+
+.contactus-content {
+  display: flex;
+  justify-content: center;
+}
+
+.contactus-box {
+  background-color: rgba(255, 255, 255, 0.637);
+  /* Increased padding to make the box bigger */
+  padding: 70px; 
+  /* Rounded corners */
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Increased width to make the box bigger */
+  max-width: 700px; 
+  width: 200%;
+  border: 2px solid #C6A641 ;
+  margin-bottom: 60px;
+
+}
+
+.connect {
+  font-size: 1.2em;
+}
+.contact-us p{
+  text-align: center;
+}
+
+/*------------------------------------------------------------------------------FOOTER---------------------------------------------------------------------------------------------*/
+
+footer {
+  /* Background color of the footer */
+  background-color: #333; 
+  /* Text color */
+  color: #fff;  
+  /* Space inside the footer */         
+  padding: 15px 0;  
+  /* Center-align text */      
+  text-align: center;     
+}
+
+.footer-content {
+  /* Max width of the content inside the footer */
+  max-width: 1000px; 
+  /* Center the footer content horizontally */
+  margin: 0 auto;
+  /* Space around the footer content */    
+  padding: 20px;     
+}
+
+.footer-content p{
+  color: white;
+}
+
+.footer-content a{
+  color: white;
+}
+
+.footer-social-media {
+  /* Space above the social media icons */
+  margin-top: 10px;  
+}
+
+.footer-social-media a {
+   /* Color of the social media icons */
+  color: #fff;      
+  /* Space between the icons */
+  margin: 0 10px;    
+  /* Size of the icons */
+  font-size: 24px;   
+}
+
+.footer-social-media a:hover {
+  /* Color of icons on hover */
+  color: #ddd;       
+}
+

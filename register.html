@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CareOnCall Register </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!---------------------------------------------------------------CONNECT WITH ME------------------------------------------------------------------------>
+
+    <section id="getregister">
+        <h2>REGISTER</h2>
+
+        <div class="connect-input">
+        <form action="/action_page.php">
+
+        <input type="text" id="firstname" placeholder="First Name"><br><br>
+
+        <input type="text" id="lastname" placeholder="Last Name"><br><br>
+
+        <input type="text" id="emailad"  placeholder="Email Address"><br><br>
+
+        <input type="text" id="homeaddress"  placeholder="Physical Address"><br><br>
+
+        <input type="text" id="phonenumber" placeholder="Phone Number" pattern="\d{1,3}" maxlength="10" oninput="this.value = this.value.replace(/[^0-9]/g, '');"><br><br>
+
+        <input type="password" id="password" placeholder="Password"><br><br>
+
+        <input type="password" id="confirm-password" placeholder="Confirm Password"><br><br>
+
+        <br><br>
+    </form>
+
+    <div class="send-button">
+        <a href="index.html" class="button">Register</a>
+        </div>
+    </div>
+
+     </section>
+
+     <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 CareOnCall. All rights reserved.</p>
+           
+                <p><a href="#privacy">Privacy Policy</a></p>
+            
+            <div class="footer-social-media">
+                <a href="https://instagram.com/yourprofile"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/yourprofile"><i class="fab fa-twitter"></i></a>
+                <a href="https://facebook.com/yourprofile"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+
+</footer>
+    </body>
+    </html>
